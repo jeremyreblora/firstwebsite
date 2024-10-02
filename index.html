@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My first website</title>
+   
+    <style>
+       body{
+        margin-left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+       }
+        #NAME{
+        color: rgb(0, 0, 0);
+        background-color: rgb(109, 107, 107);
+        overflow: hidden;
+        text-align:center
+        
+       }
+       #OTHERS{
+        color: rgb(0, 0, 0);
+        background-color: rgb(109, 107, 107);
+        text-align: center;
+        }
+       #PROFILE{ 
+            color: awhite;
+            background-color: darkslategrey; 
+            text-align: center;
+        }   
+        #INFORMATION{ 
+            color: black;
+            background-color: darkslategrey; 
+            text-align: center;
+        }
+        #whole{
+            border-style: solid;
+            border-top-color: white;
+            border-bottom-color: white;
+            border-right-color: white;
+            border-left-color: white ;
+            width: 100%; 
+            display: flex; 
+        }
+        #self{
+            position: inherit;
+            height: 50vh;
+            width: 100%;
+            display: flex;
+            justify-items: right;
+        }
+        #view{
+            width: 100%;
+        }
+        #left{
+            border: 2px solid white;
+            padding: left 3px;
+        }
+        #right{
+            border: 2px solid white;
+            width: 100%;
+            position: relative;
+        }
+        #ITC{
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            font-size: xxx-large;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="whole"> 
+        <div id="left">
+            <img src="bit.jpg" id="self">
+            <h1 id="PROFILE">
+                PROFILE
+            </h1>
+             <h2 id="NAME">
+                <a href="https://www.facebook.com/jeremy.reblora.31/" target="_blank"> JEREMY F. REBLORA</a>
+             </h2>
+            <h1 id="INFORMATION">
+                INFORMATION
+            </h1>
+            <h2 id="OTHERS">
+                    <p>COURSE & YEAR: BSIT-1B</p>
+                    <p>AGE: 18</p>
+                    <p>ADDRESS: Tiris, Gubat, Sorsogon</p>
+                    <p>HOBBIES: Watching anime & playing online games</p>
+             </h2>
+        </div>      
+        <div id="right">
+            <img src="Mjview.jpg" id="view">
+            <h1 id="ITC">
+                INTRODUCTION TO COMPUTING
+            </h1>
+        </div>  
+    </div>
+</body>
+</html>
